@@ -6,6 +6,12 @@ def prime?(n)
       return false
       end
     end
+  else
+    (2..n-1).abs.each do |d| 
+      if n % d == 0
+      return false
+      end
+    end
   end
   return true
 end
