@@ -7,7 +7,7 @@ def prime?(n)
       end
     end
   else
-    (2..n-1).abs.each do |d| 
+    (2..n-1).each do |d| 
       if n % d == 0
       return false
       end
