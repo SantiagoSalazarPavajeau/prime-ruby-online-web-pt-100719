@@ -2,7 +2,8 @@
 def prime?(n)
   if n<=0  
     return false
-  else n > 2
+  e
+  else 
     (2..n-1).each do |d| 
       if n % d == 0
       return false
